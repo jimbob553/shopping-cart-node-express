@@ -5,6 +5,12 @@ It lets you add, remove, and reset items while keeping track of what’s in the 
 
 ---
 
+## Preview
+
+![Shopping Cart Screenshot](shoppingCart-frontend.png)
+
+---
+
 ## Features
 
 * Add items to the cart
