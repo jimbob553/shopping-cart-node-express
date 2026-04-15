@@ -1,20 +1,42 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+-Shopping Cart App-
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Simple shopping cart app built with Node.js and Express.
+It lets you add, remove, and reset items while keeping track of what’s in the cart.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+-Features-
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Add items to the cart
+Decrease or remove items
+Reset the cart
+Refresh cart state
+Uses EJS to render the UI
+Tech Used
+Node.js
+Express
+EJS
+HTML / CSS
+Project Structure
+controllers/   - cart logic  
+routes/        - route handling  
+views/         - EJS templates  
+public/        - CSS / static files  
+app.js         - server entry point  
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+-How to Run-
+
+Install dependencies:
+npm install
+Start the server:
+npm start
+Open in browser:
+http://localhost:4000
+
+-Notes-
+
+This started as a class project, but I cleaned it up and focused it on just the cart functionality.
+
+-Future Improvements-
+
+Save cart data (database instead of memory)
+Improve styling
+Add product data instead of hardcoded items
